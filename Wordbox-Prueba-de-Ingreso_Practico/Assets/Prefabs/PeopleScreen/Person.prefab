@@ -318,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 720796165462295600}
   - component: {fileID: 720796165462295602}
+  - component: {fileID: 4405068008804720805}
   m_Layer: 0
   m_Name: Person
   m_TagString: Untagged
@@ -332,9 +333,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720796165462295601}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 720796166073593380}
@@ -357,6 +358,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720796165462295601}
   m_CullTransparentMesh: 1
+--- !u!114 &4405068008804720805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720796165462295601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebfc315547afb9a40807291d832c7d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePicture: {fileID: 720796164894115174}
+  name: {fileID: 720796166667455107}
 --- !u!1 &720796165635041365
 GameObject:
   m_ObjectHideFlags: 0
